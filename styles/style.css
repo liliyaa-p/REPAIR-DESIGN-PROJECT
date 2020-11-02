@@ -481,8 +481,11 @@ h4 {
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-
+  text-align: center;
   color: #ffffff;
+}
+.list-pin{
+  padding: 16px;
 }
 
 .hero4 {
