@@ -43,6 +43,10 @@ body * {
   color: white;
 }
 
+.header-nav__item a:hover  {
+  color: #e3b873;
+}
+
 .header-nav__itemtel {
   color: #e3b873;
 }
