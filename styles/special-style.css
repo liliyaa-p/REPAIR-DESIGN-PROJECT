@@ -188,6 +188,9 @@
     font-size: 15px;
     line-height: 21px;
   }
+  .list-pin{
+  padding: 10px;
+}
   .container-list {
     max-width: 80%;
     height: 270px;
