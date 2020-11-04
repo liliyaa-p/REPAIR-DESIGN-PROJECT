@@ -17,7 +17,7 @@
   }
 
   .container {
-    width: 100%;
+   max-width: 400px;
   }
 
   .logo {
@@ -91,7 +91,19 @@
   }
   .info {
     width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
+  .inform{
+      margin-top: 20px;
+      width: 330px;
+  }
+  
+   .text_imges {
+    display: none;  
+  }
+  
   .images {
     display: none;
   }
@@ -157,8 +169,7 @@
 
   .div-checkbox1 {
     margin-top: -90px;
-    justify-content: flex-start;
-    margin-left: 18px;
+    margin-left: -55px;
   }
   .button3 {
     width: 340px;
@@ -193,6 +204,7 @@
 }
   .container-list {
     max-width: 80%;
+    width: auto;
     height: 270px;
     background: #ffffff;
     position: relative;
@@ -216,8 +228,9 @@
   .sok {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: -1350px;
-    margin-left: 16px;
+    margin-left: -59px;
     height: 1500px;
   }
 
