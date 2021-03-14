@@ -1,8 +1,4 @@
 @media screen and (max-width: 1024px) {
-  header {
-    background-color: #181818;
-  }
-
   .nav-none {
     display: none;
   }
@@ -17,7 +13,8 @@
   }
 
   .container {
-   max-width: 400px;
+    /* width: 100%;  */
+    max-width: 400px;
   }
 
   .logo {
@@ -57,7 +54,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .full-button {
@@ -95,15 +91,14 @@
     display: flex;
     flex-direction: column;
   }
-  .inform{
-      margin-top: 20px;
-      width: 330px;
+  .inform {
+    margin-top: 20px;
+    width: 330px;
   }
-  
-   .text_imges {
-    display: none;  
+  .text_imges {
+    display: none;
   }
-  
+
   .images {
     display: none;
   }
@@ -116,6 +111,10 @@
     font-size: 14px;
     line-height: 138.6%;
   }
+  .projects__nav {
+    display: none;
+  }
+
   .online {
     font-size: 22px;
     line-height: 138.6%;
@@ -199,9 +198,10 @@
     font-size: 15px;
     line-height: 21px;
   }
-  .list-pin{
-  padding: 10px;
-}
+  .list-pin {
+    padding: 10px;
+  }
+
   .container-list {
     max-width: 80%;
     width: auto;
