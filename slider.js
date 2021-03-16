@@ -3,7 +3,7 @@ const entities = [
     city: "Rostov-on-Don<br />LCD admiral",
     square: "81 m2",
     time: "3.5 months",
-    img: "images/image 2.1.png",
+    img: "images/01.png",
   },
   {
     city: "Sochi<br />Thieves",
@@ -19,9 +19,10 @@ const entities = [
   },
 ];
 const img = document.querySelector(".projects__image");
-const city = document.querySelectorAll(".span")[0];
-const square = document.querySelectorAll(".span")[1];
-const time = document.querySelectorAll(".span")[2];
+// const city = document.querySelectorAll(".span")[0];
+// const square = document.querySelectorAll(".span")[1];
+// const time = document.querySelectorAll(".span")[2];
+const [city, square, time] = document.querySelectorAll(".span");
 const items = document.querySelectorAll(".projects__item");
 
 let currentIndex = 0;

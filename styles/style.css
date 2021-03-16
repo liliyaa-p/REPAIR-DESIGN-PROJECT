@@ -203,7 +203,7 @@ body * {
 
 .projects__image {
   /* margin-left: 45px; */
-  background-image: url("../images/image 2.1.png");
+  background-image: url("../images/01.png");
   background-size: cover;
   width: 679px;
   height: 482px;
@@ -286,8 +286,17 @@ h3 {
   background: #fff;
 }
 
+a.item-active{
+  color: #e3b873;
+  box-shadow: 0 1px 0 0 #e3b873;
+}
+
 .projects__arrow-left {
   margin-right: 28px;
+  cursor: pointer;
+}
+.projects__arrow-right {
+  cursor: pointer;
 }
 
 .online {
