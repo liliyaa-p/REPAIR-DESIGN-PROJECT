@@ -19,9 +19,6 @@ const entities = [
   },
 ];
 const img = document.querySelector(".projects__image");
-// const city = document.querySelectorAll(".span")[0];
-// const square = document.querySelectorAll(".span")[1];
-// const time = document.querySelectorAll(".span")[2];
 const [city, square, time] = document.querySelectorAll(".span");
 const items = document.querySelectorAll(".projects__item");
 
