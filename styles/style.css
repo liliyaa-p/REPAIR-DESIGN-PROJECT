@@ -762,7 +762,7 @@ h4 {
   padding-top: 39px;
 }
 
-/* .bbb {
+.bbb {
   display: flex;
   justify-content: center;
 }
@@ -771,7 +771,7 @@ h4 {
 }
 .bbb img {
   max-width: 100%;
-} */
+}
 .map {
   margin-top: 200px;
   max-width: 100%;
